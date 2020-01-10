@@ -85,3 +85,22 @@ java.util.concurrent.TimeoutException
 	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
 	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-10 21:25:46.909
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Helpdesk[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.crissantos.helpdesk[*]: {CHILDREN}
+				HelpdeskApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-10 21:25:46.977
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LuLWiQMv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-10 21:25:46.978
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LuLWiQMv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-10 21:25:46.978
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-10 21:25:46.979
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LuLWiQMv => OK
